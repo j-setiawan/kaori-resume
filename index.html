@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kaori Sugimura</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge;" />
+
+        <link href="https://raw.githack.com/Spiderpig86/Cirrus/master/dist/cirrus.min.css" type="text/css" rel="stylesheet" />
+
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
+
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+            integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+            crossorigin="anonymous"
+        />
+
+        <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body>
+      <div class="header header-clear u-unselectable header-animated px-0 px-2-md">
+        <div class="header-brand">
+          <div class="nav-item no-hover">
+            <a>
+              <h6 class="tracking-tight">Kaori Sugimura</h6>
+            </a>
+          </div>
+          <div class="nav-item nav-btn" id="header-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="header-nav" id="header-menu">
+          <div class="nav-right text-sm">
+            <div class="nav-item">
+              <a href="https://www.linkedin.com/in/sugimura">
+                <span class="icon">
+                    <i class="fab fa-wrapper fa-linkedin" aria-hidden="true"></i>
+                </span>
+              </a>
+            </div>
+            <div class="nav-item">
+              <a href="#experience">Experience</a>
+            </div>
+            <div class="nav-item">
+              <a href="#education">Education</a>
+            </div>
+          </div>
+        </div>
+      </div>
+        <section class="section">
+          <div class="hero">
+            <div class="hero-body">
+              <div class="content px-12-lg px-24-xl">
+                <div class="u-flex u-items-center u-gap-4 u-flex-column u-gap-8-lg u-flex-row-md">
+                  <div>
+                    <img class="u-round-xs w-100p w-60p-sm w-auto-md u-shadow-lg" src="profile.jpg" />
+                  </div>
+                  <div>
+                    <h1 class="headline-4">Kaori Sugimura</h1>
+                    <p class="lead">I am a Japanese teacher based in Ottawa with experience teaching a large range of age groups of varying experience. I am always looking for different ways to help others learn Japanese, including methods I researched for my Master's thesis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="mb-12">
+          <div class="content px-2 px-12-lg px-24-xl">
+            <h2><a id="experience">#</a> Experience</h2>
+            <dl>
+              <dt>Japanese Teacher<span style="float:right;">September 2015 - Present</span><br>Canadian Foreign Service Institute (CMI Interlangues Inc./Graybridge Malkam)</dt>
+              <dd>Teaching Canadian diplomats and government workers Japanese before they go to Japan.</dd>
+              <br>
+              <dt>Contract Instructor<span style="float:right;">January 2018 - Present</span><br>Carleton University</dt>
+              <dd>Designed the syllabus for and taught the First-Year Japanese Course</dd>
+              <br>
+              <dt>Teaching Assistant<span style="float:right;">November 2014 - April 2017</span><br>Carleton University</dt>
+              <dd>Teaching assistant for beginner and intermediate classes.</dd>
+              <br>
+              <dt>Japanese Teacher for Adults<span style="float:right;">September 2014 - September 2019</span><br>Ottawa Japanese Language School</dt>
+              <dd>Teacher for adult intermediate class.</dd>
+              <br>
+              <dt>Japanese Instructor<span style="float:right;">May 2016, 2017</span><br>Carleton University (Enrichment Mini-Course Program)</dt>
+              <dd>Developed and taught an introduction to Japanese class for grade 8 to 11 students over five days. Organized cultural sessions with the Japanese Embassy and 30 Japanese high school exchange students.</dd>
+              <br>
+              <dt>Japanese Teacher for Children<span style="float:right;">October 2013 - May 2014</span><br>Ottawa Japanese Language School</dt>
+              <dd>Taught children from grades 3 to 6. Attended the Toronto New Japanese-Canadian Association workshop on Japanese early childhood education.</dd>
+              <br>
+              <dt>Buyer, Alliance Group, Procurement Division<span style="float:right;">April 2011 - December 2012</span><br>Hitachi Ltd.</dt>
+              <dd>Created software license contracts (Japanese and English) and negotiated contractual terms and prices with other companies, including Microsoft, Oracle, SAP, NTT Data, and Apriso.</dd>
+            </dl>
+          </div>
+        </section>
+        <section class="mb-12">
+          <div class="content px-2 px-12-lg px-24-xl">
+            <h2><a id="education">#</a> Education</h2>
+            <dl>
+              <dt>Carleton University<span style="float:right;">September 2015 - November 2017</span><br>Master's Degree<br>Applied Linguistics and Discourse Studies</dt>
+              <dd>Thesis titled: The Impact of Short-Term Strategy Training in Requests for Clarification in the Japanese Classroom</dd>
+              <br>
+              <dt>Kwansei Gakuin University<span style="float:right;">2006 - 2011</span><br>Bachelor's Degree<br>Policy Studies</dt>
+              <dd>International Development Course</dd>
+            </dl>
+          </div>
+        </section>
+        <script>
+            // Show dropdown when clicked
+            $('#header-btn').on('click', function (e) {
+                $('#header-menu').toggleClass('active');
+                $('.nav-btn').toggleClass('active');
+            });
+        </script>
+    </body>
+</html>
+
